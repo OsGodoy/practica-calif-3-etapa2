@@ -1,4 +1,5 @@
 import React from "react";
+import "@fontsource-variable/nunito";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import { Route, Routes } from "react-router-dom";
@@ -12,7 +13,8 @@ import MainLayouts from "./layouts/MainLayouts";
 export default function App() {
   return (
     <>
-      <main className="border min-h-screen flex flex-col items-center justify-between">
+      <main className="min-h-screen flex flex-col items-center justify-between"
+      style={{fontFamily: "Nunito Variable, sans-serif"}}>
         <Routes>
           <Route element={<MainLayouts />}>
             <Route path="/" element={<Home />} />

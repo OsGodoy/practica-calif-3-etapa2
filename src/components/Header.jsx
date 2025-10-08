@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Header() {
   return (
-    <section className="border w-full flex items-center justify-between p-4">
-      <img src="#" alt="logo" />
+    <section className="bg-gradient-to-l from-blue-100 w-full flex items-center justify-between p-4">
+      <img
+      className="w-30"
+      src="/images/klean-logo.png" alt="logo" />
       <div className="flex items-center justify-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +13,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="size-8 text-blue-500"
+          className="size-8 text-blue-400"
         >
           <path
             strokeLinecap="round"
@@ -25,7 +27,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="size-8 text-blue-500"
+          className="size-8 text-blue-400"
         >
           <path
             strokeLinecap="round"

@@ -22,20 +22,20 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
           onClick={(e) => e.stopPropagation()}
         >
           <div className="h-100 w-full rounded-bl-lg bg-white/70 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
-            <nav
+            <ul
               className="text-blue-600 font-medium gap-4 flex flex-col items-center justify-center"
               onClick={() => setIsToggleNavegator(false)}
             >
               <Link to="/">Home</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/services">Service</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/details">Details</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/team">Team</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/contact">Contact</Link>
-            </nav>
+            </ul>
           </div>
         </section>
       </div>

@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <>
       <footer className="w-full bg-[length:1380px] bg-bottom bg-[url(/images/footer/image1.png)] bg-no-repeat">
-        <section className="h-65 px-4 gap-2 flex flex-col items-center justify-center">
+        <section className="h-65 px-4 gap-2 sm:m-4 flex flex-col items-center justify-center">
           <div className="h-10 text-[32px] font-bold bg-gradient-to-br from-fuchsia-300 to-blue-500 bg-clip-text text-transparent">
             <h2 className="text-center">Exclusively by ThemeWagon</h2>
           </div>
-          <p className="text-center text-sm text-slate-500">
+          <p className="px-8 sm:px-40 text-center text-sm text-slate-500">
             Klean is an elegant HTML5 template and a perfect starting point for
             your next SaaS oriented site, carefully curated by ThemeWagon
           </p>
@@ -24,10 +24,12 @@ export default function Footer() {
         </section>
         <div className="bg-white/50 backdrop-blur-sm">
           <FooterComps />
-          <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-100 to-transparent"></div>
-          <p className="text-slate-500 text-xs text-center p-4 flex items-center justify-center">
-            © Os Godoy, 2025
-          </p>
+          <section className="sm:mt-4">
+            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-100 to-transparent"></div>
+            <p className="text-slate-500 text-xs text-center p-4 flex items-center justify-center">
+              © Os Godoy, 2025
+            </p>
+          </section>
         </div>
       </footer>
     </>

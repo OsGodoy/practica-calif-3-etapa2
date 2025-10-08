@@ -3,9 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <section className="bg-gradient-to-l from-blue-100 w-full flex items-center justify-between p-4">
-      <img
-      className="w-30"
-      src="/images/klean-logo.png" alt="logo" />
+      <img className="w-30" src="/images/klean-logo.png" alt="logo" />
       <div className="flex items-center justify-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"

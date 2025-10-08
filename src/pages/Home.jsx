@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-48 w-80 p-4 gap-4 flex flex-col justify-center">
+      <section className="h-48 w-80 pt-4 px-4 gap-4 flex flex-col justify-center">
         <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-100 to-transparent"></div>
         <div className="grid grid-cols-6 px-1 py-4 gap-2 place-items-center">
           <img
@@ -54,7 +54,6 @@ export default function Home() {
             alt=""
           />
         </div>
-        <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-100 to-transparent"></div>
       </section>
     </>
   );

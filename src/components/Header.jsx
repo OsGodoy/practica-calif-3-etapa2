@@ -13,11 +13,12 @@ export default function Header({ setIsToggleNavegator }) {
             />
           </Link>
           <nav className="text-sm hidden md:flex items-center justify-between">
-            <ul className="text-neutral-500 font-medium gap-6 flex items-center justify-center">
+            <ul className="text-neutral-500 font-medium gap-4 flex items-center justify-center">
               <Link to="/">Home</Link>
               <Link to="/services">Service</Link>
               <Link to="/features">Features</Link>
               <Link to="/details">Details</Link>
+              <Link to="/proyects">Proyects</Link>
               <Link to="/team">Team</Link>
               <Link to="/contact">Contact</Link>
             </ul>

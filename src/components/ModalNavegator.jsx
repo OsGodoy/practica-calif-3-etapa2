@@ -23,19 +23,21 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
         >
           <div className="h-120 w-full rounded-bl-lg bg-white/80 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
             <ul
-              className="text-blue-600 font-medium gap-6 flex flex-col items-center justify-center"
+              className="text-blue-600 font-medium gap-4 flex flex-col items-center justify-center"
               onClick={() => setIsToggleNavegator(false)}
             >
               <Link to="/">Home</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/services">Service</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/features">Features</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <Link to="/proyects">Proyects</Link>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/details">Details</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/team">Team</Link>
-              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <div className="h-[2px] w-50 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/contact">Contact</Link>
             </ul>
           </div>

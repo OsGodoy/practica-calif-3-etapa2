@@ -30,7 +30,7 @@ export default function App() {
     <>
       <ToggleNavetagorContext.Provider value={isToggleNavegator}>
         <main
-          className="min-h-screen flex flex-col items-center justify-between"
+          className="min-h-screen flex flex-col justify-between"
           style={{ fontFamily: "Nunito Variable, sans-serif" }}
         >
           <ModalNavegator setIsToggleNavegator={setIsToggleNavegator} />

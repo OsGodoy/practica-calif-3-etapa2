@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col h-140 md:h-75 lg:h-100 xl:h-128 items-center md:items-center justify-end md:justify-start w-screen bg-no-repeat bg-[url(/images/1.home/illustration1.png)] bg-[position:18px_0px] bg-[length:620px] sm:bg-right-top md:bg-[length:450px] lg:bg-[length:720px] xl:bg-[length:950px]">
+      <section className="w-full flex flex-col h-140 md:h-75 lg:h-100 xl:h-150 items-center md:items-center justify-end md:justify-start bg-no-repeat bg-[url(/images/1.home/illustration1.png)] bg-[position:18px_0px] bg-[length:620px] sm:bg-right-top md:bg-[length:450px] lg:bg-[length:720px] xl:bg-[length:950px]">
         <div className="md:w-182 lg:w-250 xl:w-310 md:h-65 lg:h-100 xl:h-130 flex flex-col items-center md:items-start justify-center">
           <div className="py-4 lg:p-4 gap-1 flex flex-col items-center md:items-start justify-center">
             <h2 className="text-3xl sm:text-[38px] xl:text-[40px] font-bold bg-gradient-to-br from-fuchsia-300 to-blue-500 bg-clip-text text-transparent">
@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-60 lg:h-104 xl:h-75 w-80 sm:w-160 md:w-190 lg:w-250 xl:w-310 p-4 gap-4 md:gap-10 lg:gap-20 xl:gap-12 flex flex-col items-center justify-center place-self-center">
+      <section className="h-60 lg:h-104 xl:h-75 w-80 sm:w-160 md:w-190 lg:w-250 xl:w-300 p-4 gap-4 md:gap-10 lg:gap-20 xl:gap-12 flex flex-col items-center justify-center place-self-center">
         <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-100 to-transparent"></div>
         <div className="w-80 sm:w-full grid grid-cols-6 md:flex items-center justify-between px-1 py-8 gap-2 place-items-center">
           <img

@@ -5,7 +5,7 @@ import Download from "./Download";
 export default function Footer() {
   return (
     <>
-      <footer className="w-full flex flex-col items-center justify-center bg-[length:1380px] xl:bg-[length:1880px] bg-bottom bg-[url(/images/footer/image1.png)] bg-no-repeat">
+      <footer className="w-full flex flex-col items-center justify-center bg-[length:1380px] xl:bg-cover bg-bottom bg-[url(/images/footer/image1.png)] bg-no-repeat">
         <Download />
         <div className="w-full flex flex-col items-center justify-center bg-white/50 backdrop-blur-sm">
           <FooterComps />

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Encrypted Mail",
+    "desc": "A process of encrypting email communications",
+    "img": "/images/4.features/icon1.png"
+  },
+  {
+    "id": 2,
+    "title": "Display Sharing",
+    "desc": "With other participants, you may share your screen",
+    "img": "/images/4.features/icon2.png"
+  },
+  {
+    "id": 3,
+    "title": "Private Notebook",
+    "desc": "Private Notebook is an application that is protected",
+    "img": "/images/4.features/icon3.png"
+  },
+  {
+    "id": 4,
+    "title": "App Assistance",
+    "desc": "App Assistant is quickly and effectively ran the system",
+    "img": "/images/4.features/icon4.png"
+  },
+  {
+    "id": 5,
+    "title": "Multiple Printing",
+    "desc": "Our canvas prints are crafted on top-notch canvas.",
+    "img": "/images/4.features/icon5.png"
+  },
+  {
+    "id": 6,
+    "title": "Free Sketch",
+    "desc": "Our canvas prints are crafted on top-notch canvas.",
+    "img": "/images/4.features/icon6.png"
+  }
+]

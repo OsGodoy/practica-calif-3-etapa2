@@ -30,6 +30,8 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
               <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/services">Service</Link>
               <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
+              <Link to="/features">Features</Link>
+              <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/details">Details</Link>
               <div className="h-[2px] w-30 bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
               <Link to="/team">Team</Link>

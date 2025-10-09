@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Send Texts Instantly",
+    "desc": "Financial planning, forecasting and adjusting rapidly with customer demands and budgets.",
+    "img": "/images/2.services/icon1.png"
+  },
+  {
+    "id": 2,
+    "title": "Better Organized",
+    "desc": "Latest technology and experienced guidance, trained HR specialists to keep updated.",
+    "img": "/images/2.services/icon2.png"
+  },
+  {
+    "id": 3,
+    "title": "Analytical Statistics",
+    "desc": "Messages, real-time reminders, memos, and many more will keep your team in sync.",
+    "img": "/images/2.services/icon3.png"
+  }
+]

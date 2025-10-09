@@ -3,7 +3,7 @@ import React from "react";
 export default function FooterComps() {
   return (
     <>
-      <div className="sm:flex items-center justify-center">
+      <div className="w-full sm:w-150 md:w-180 flex sm:flex-row flex-col items-center justify-center sm:justify-between">
         <div className="sm:order-2 sm:px-4">
           <section className="text-sm text-slate-600 pt-4 gap-1 flex flex-col items-center justify-center">
             <h6>Follow Us</h6>

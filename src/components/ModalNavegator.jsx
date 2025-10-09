@@ -21,9 +21,9 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
             ${isToggleNavegator ? "translate-x-0" : "translate-x-full"}`}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="h-100 w-full rounded-bl-lg bg-white/70 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
+          <div className="h-120 w-full rounded-bl-lg bg-white/70 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
             <ul
-              className="text-blue-600 font-medium gap-4 flex flex-col items-center justify-center"
+              className="text-blue-600 font-medium gap-6 flex flex-col items-center justify-center"
               onClick={() => setIsToggleNavegator(false)}
             >
               <Link to="/">Home</Link>

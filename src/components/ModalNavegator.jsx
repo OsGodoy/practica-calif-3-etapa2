@@ -8,7 +8,7 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
   return (
     <>
       <div
-        className={`flex flex-col items-end justify-start duration-300 w-screen fixed min-h-screen bg-blue-900/50 z-[150]
+        className={`flex flex-col items-end justify-start duration-300 w-screen fixed min-h-screen bg-gradient-to-br from-fuchsia-300/50 to-blue-500/50 z-[150]
         ${
           isToggleNavegator
             ? "opacity-100 pointer-events-auto"
@@ -21,7 +21,7 @@ export default function ModalNavegator({ setIsToggleNavegator }) {
             ${isToggleNavegator ? "translate-x-0" : "translate-x-full"}`}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="h-120 w-full rounded-bl-lg bg-white/70 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
+          <div className="h-120 w-full rounded-bl-lg bg-white/80 outline-2 outline-white/80 backdrop-blur-md flex items-center justify-center">
             <ul
               className="text-blue-600 font-medium gap-6 flex flex-col items-center justify-center"
               onClick={() => setIsToggleNavegator(false)}
